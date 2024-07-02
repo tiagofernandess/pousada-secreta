@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header {
+	width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    background-color: white; 
+    z-index: 1000;
+}
+
+ 
+.secao-topo {
+	width: 1024px;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	
+}
+
+.logo {
+	width: 100%;
+	display: flex;
+	padding: 15px 0px;
+
+	
+}
+
+.logo a {
+	text-decoration: none;
+	color:black;
+	font-size: 24px;
+	
+}
+
+.logo span {
+	color: #94afcd;
+}
+
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.menu a {
+	width: 100px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+.secao-banner div {
+	background-image: url(assets/img-fundo.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 30vh;
+	background-position: center;
+	margin: 0 auto 70px auto;
+}
+
+.secao-quartos {
+	width: 1024px;
+	margin: 0 auto 70px auto;
+}
+
+.secao-quartos h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+
+.secao-quartos p {
+	margin: 0 auto;
+	width: 450px;
+	text-align: center;
+	padding-bottom: 40px;
+	line-height: 30px;
+}
+
+
+.img-quartos img {
+	width: 350px;
+	height: 200px;
+}
+
+.secao-quartos .card {
+	display: flex;
+	justify-content: space-between;
+	gap: 5px;
+}
+
+.infoquartos {
+	width: 1024px;
+	margin: 0 auto 70px auto;
+}
+
+.infoquartos h3 {
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+
+.l1 {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px 0px;
+	text-align: left;
+	
+}
+
+.l2 {
+	display: flex;
+	justify-content: space-around;
+	text-align: left;
+	
+}
+
+.secao-contato {
+	width: 100%;
+	background-color: #49997c;
+}
+
+.box-contato {
+	width: 1024px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #0e888098;
+	
+
+}
+
+.box-contato div {
+	width: 250px;
+	display: flex;
+	align-items: center;
+	padding: 30px 5px 30px 5px;
+	gap: 5px;
+	
+	
+}
+
+.box-contato div img {
+	width: 35px;
+}
+
+.box-contato div a {
+	text-decoration: none;
+	color: white;
+}
+
+.box-contato h3 {
+	font-size: 22px;
+	color: white;
+}
+
+.secao-copy {
+	background-color: #49997c;
+}
+
+.secao-copy p {
+	color: white;
+	text-align: center;
+	padding: 12px 0px;
+	font-weight: bold;
+}
+
+.container-conteudo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 30px;
+}

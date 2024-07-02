@@ -1,0 +1,284 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header {
+	width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    background-color: white; 
+    z-index: 1000;
+}
+
+ 
+.secao-topo {
+	width: 1024px;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	
+}
+
+.logo {
+	width: 100%;
+	display: flex;
+	padding: 15px 0px;
+
+	
+}
+
+.logo a {
+	text-decoration: none;
+	color:black;
+	font-size: 24px;
+	
+}
+
+.logo span {
+	color: #94afcd;
+}
+
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.menu a {
+	width: 100px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+.container-banner {
+	width: 100%;
+	height: 100vh;
+	background-image: url(assets/img-fundo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto 70px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+
+}
+
+.secao-bannerinfo {
+	max-width: 500px;
+	border-radius: 5px;
+	padding: 40px;
+	margin: 0 auto;
+	background-color: #0e888098;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: center;
+	border: 1px solid white;
+}
+
+.secao-bannerinfo h1 {
+	font-size: 50px;
+}
+
+.secao-bannerinfo p {
+	font-size: 25px;
+}
+
+.secao-quartos {
+	margin: 0 auto 70px auto;
+	width: 1024px;
+	flex-wrap: wrap;
+	
+}
+
+.secao-quartos h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+
+.secao-quartos p {
+	margin: 0 auto;
+	width: 450px;
+	text-align: center;
+	padding-bottom: 40px;
+	line-height: 30px;
+
+}
+
+.card-quartos img {
+	width: 300px;
+}
+
+.container-quartos {
+	width: 1024px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.card-quartos div a {
+	display: flex;
+	font-weight: 550;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	align-items: center;
+}
+
+.card-quartos {
+	background-color: #80808010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 10px;
+	gap: 10px;
+	border-bottom: 2px solid #0e888098;
+}
+
+.secao-rota {
+	margin: 0 auto 70px auto;
+}
+
+.secao-rota h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+
+.secao-rota p {
+	margin: 0 auto;
+	width: 450px;
+	text-align: center;
+	padding-bottom: 40px;
+	line-height: 30px;
+}
+
+.secao-sobre {
+	width: 1024px;
+	margin: 0 auto 70px auto;
+	
+}
+
+.secao-sobre h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 30px;
+	padding-bottom: 30px;
+
+}
+
+.secao-sobre .titulo {
+	margin: 0 auto;
+	width: 450px;
+	text-align: center;
+	padding-bottom: 40px;
+	line-height: 30px;
+}
+
+.box-sobre {
+	display: flex;
+	width: 450px;
+	justify-content: space-between;
+	gap: 8px;
+	
+
+}
+
+.box-sobre img {
+	width: 110px;
+	height: 120px;
+}
+
+.container-img {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.container-sobre {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.secao-contato {
+	width: 100%;
+	background-color: #49997c;
+}
+
+.box-contato {
+	width: 1024px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #0e888098;
+	
+
+}
+
+.box-contato div {
+	width: 250px;
+	display: flex;
+	align-items: center;
+	padding: 30px 5px 30px 5px;
+	gap: 5px;
+	
+	
+}
+
+.box-contato div img {
+	width: 35px;
+}
+
+.box-contato div a {
+	text-decoration: none;
+	color: white;
+}
+
+.box-contato h3 {
+	font-size: 22px;
+	color: white;
+}
+
+.secao-copy {
+	background-color: #49997c;
+}
+
+.secao-copy p {
+	color: white;
+	text-align: center;
+	padding: 12px 0px;
+	font-weight: bold;
+}
+
+.container-conteudo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 30px;
+}
